@@ -87,7 +87,7 @@ The dataset consists of YouTube comments from five videos, labeled as spam (`1`)
 
 ---
 
-## 🗂️ Key Insights
+## 🗂️ Conclusion
 
 - Both implementations achieved similar accuracy (88%) but showed slight variations in other metrics:
   - **Manual Implementation**: Slightly better recall for class `0` (non-spam).
