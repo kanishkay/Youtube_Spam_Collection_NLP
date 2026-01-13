@@ -10,7 +10,6 @@
 
 * `YouTube_Spam_Detection.py`: Python script containing data preprocessing, analysis, and model implementation.
 * `YoutubeSpamCollection/`: Folder containing five individual CSV files with labeled YouTube comments.
-* `requirements.txt`: Dependencies required for running the project.
 
 ---
 
