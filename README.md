@@ -87,19 +87,12 @@ The dataset consists of YouTube comments from five videos, labeled as spam (`1`)
 
 ---
 
-## 🗂️ Key Results
+## 🗂️ Key Insights
 
-1. **Manual Naive Bayes Implementation**:
-   - **Confusion Matrix**:
-     ```
-     [[442   7]
-      [ 19  96]]
-     ```
-   - **Classification Report**:
-     - Precision, recall, and F1-score: High accuracy with minimal misclassifications.
-
-2. **Pipeline Implementation**:
-   - Improved efficiency with similar performance to the manual implementation.
+- Both implementations achieved similar accuracy (88%) but showed slight variations in other metrics:
+  - **Manual Implementation**: Slightly better recall for class `0` (non-spam).
+  - **Pipeline Implementation**: More balanced precision and slightly better recall for class `1` (spam).
+- The pipeline improves efficiency by automating text preprocessing, vectorization, and training, making it a preferred approach for production use.
 
 ---
 
